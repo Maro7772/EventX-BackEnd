@@ -18,6 +18,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://event-x-front-54ar5wmge-maro7772s-projects.vercel.app",
+      "https://event-x-front-end-git-main-maro7772s-projects.vercel.app",
     ],
     credentials: true,
   })
