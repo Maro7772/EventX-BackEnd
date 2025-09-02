@@ -15,7 +15,10 @@ await connectDB();
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://eventx-frontend.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://event-x-front-54ar5wmge-maro7772s-projects.vercel.app",
+    ],
     credentials: true,
   })
 );
